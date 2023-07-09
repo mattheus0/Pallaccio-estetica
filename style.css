@@ -121,6 +121,18 @@ footer{
     text-align:center;
 
 }
+footer p{
+    padding: 15px;
+}
+.redesocial{
+    position: fixed;
+    bottom:5px;
+    right:5px;
+    
+}
+.redesocial img{
+    width: 30px;
+}
 
 
     
