@@ -129,8 +129,9 @@ footer p{
 }
 .redesocial{
     position: fixed;
-    bottom:5px;
-    right:5px;
+    right: 1px;
+    bottom: 1px;
+    
     
 }
 .redesocial img{
