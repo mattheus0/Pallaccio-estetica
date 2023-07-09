@@ -16,20 +16,20 @@ body{
 }
 .titulo{
     display: flexbox;
-    border: 1px solid black;
+    
     height: 600px;
-    /*background-image: url(imagens/img-moçamorena.jpg);
+    background-image: url(imagens/img-moçamorena.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    background-attachment: fixed;*/
+    background-attachment: fixed;
     
 }
 .titulo h1{
     font-family: 'Ysabeau SC', sans-serif;
     letter-spacing: 3px;
     text-transform: uppercase;
-    border: 1px solid black;
+    
     color: #8cd7ff;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.438);
     padding-top: 50px;
@@ -41,14 +41,14 @@ body{
     text-decoration: none;
     color: rgb(0, 0, 0);
     text-transform:lowercase;
-    border: 1px solid black;
+    
     flex: 100%;
     display: flex;
     padding-left: 45px;
     text-shadow: 1px 1px 1px white;
 }
 nav{
-    border: 1px solid black;
+   
     flex: 100%;
     display: flexbox;
 }
@@ -71,7 +71,7 @@ nav ul li a:hover{
 
 }
 main{
-    border: 1px solid black;
+   
     height: 100vh;
     margin-left: 15%;
     margin-right: 15%;
@@ -81,7 +81,7 @@ main h2{
     
     font-size: 50px;
     text-align: center;
-    border: 1px solid black;
+    
     padding:50px 0px;
     color: rgba(80, 80, 80, 0.425);
 }
@@ -92,7 +92,7 @@ main p{
 .redondo{
     display: inline-block;
     height:200px;
-    border: 1px solid rgb(255, 35, 35);
+    
     width: 30%;
     margin: 0px;
     padding: 0px;
