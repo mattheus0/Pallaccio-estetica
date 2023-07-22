@@ -1,88 +1,70 @@
 /* Smartphones (600px para baixo) */
+
+
+
+
 @media screen and (max-width: 798px) {
     
 .titulo{
-    border: 1px solid black;
     background-image: url(imagens/img-background-p.jpg);
     width: 100%;
     background-size: cover;
-}    
-nav ul li{
-    border: 1px solid black;
-    margin: 0px;
-    padding: 0px;
-}
-nav ul li a{
-    border: 1px solid black;
-    padding: 10px;
-    margin: 0px;
-    display: inline-block;
-    text-transform:none;
-}
-nav ul li a:hover{
-    border: 1px solid black;
-    padding:10px ;
-    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.808);
-}
+} 
 
-
+ul{
+    display: none;
+}
+nav{
+    background-color: #8cd7ffad;
+    text-align: center;
+    position: sticky;
+    top: -1px;
+}
+#burger{ 
+    display: block;
+    margin: auto; 
+}
 main{
-    border: 1px solid black;
     width: 100%;
     height: 1400px;
     margin: auto;
     padding: 0px;
-    align-items: center;
-  
-    
+    align-items: center; 
 }
 .fora{
     width:97% ;
-    
-    
-    border: 1px solid rgb(255, 10, 10);
     flex-direction: column;
-    text-align: center;
+    text-align: center;  
+    
 }
 .redondo{
     display: flexbox;
     flex-direction: column;
-    
-   text-align: center;
+    text-align: center;
     width: 98%;
-    border: 1px solid black;
-    
-    margin-bottom: 15%;
+    margin-bottom: 18%;
+  
 }
 .redondo img{
-    
-    border: 1px solid black;
     text-align: center;
     padding: 0px;
     height: 100%;
-    width: 190px;
-    
+    width: 190px;    
 }
-.redondo h2{
-   
-    border: 1px solid black;
-}
+
 footer {
-    border: 1px solid black;
     padding: 7px;
     width: 96%;
     height: 100%;
-
 }
 footer p{
     margin: 0px;
     padding: 10px;
-
 }
-.redesocial{
-    border: 1px solid black;
+.redesocial{  
     display: none;
 }
+
 }
 
 
