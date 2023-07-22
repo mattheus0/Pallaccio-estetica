@@ -50,11 +50,7 @@ body{
     padding-left: 45px;
     text-shadow: 1px 1px 1px white;
 }
-nav{
-  
-    
 
-}
 nav ul li{
     display: inline-block;
     margin-left: 50px;
@@ -65,7 +61,7 @@ nav ul li{
 nav ul li a{
     
     background-color: #8cd7ff;
-    padding:20px 30px;
+    padding:19px 28px;
     border-radius: 5px;
     text-decoration: none;
     text-transform: uppercase ;
@@ -74,7 +70,8 @@ nav ul li a{
     
 }
 nav ul li a:hover{
-    transition: none;
+
+    transition: 0.2s;
     padding:26px 36px ;
     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.705);
 
@@ -90,10 +87,10 @@ main{
     flex-direction: column;
 }
 main h2{ 
-    display: block;
+    
     font-size: 50px;
     text-align: center;
-    
+    margin-top: 30px;
     padding:50px 0px;
     color: rgba(80, 80, 80, 0.425);
 }
